@@ -1968,7 +1968,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(212, 212, 255, 0.035);
+		background: rgba(212, 212, 255, 0.135);
 		border: none;
 		border-radius: 0;
 		color: inherit;
@@ -2742,7 +2742,7 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:hover,
 			.button.primary:active {
-				background-color: #9bf1ff;
+				background-color: #79c471;
 				color: #242943 !important;
 			}
 
@@ -2751,7 +2751,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #53e3fb;
+				background-color: #79c471;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2896,7 +2896,7 @@ input, select, textarea {
 			}
 
 			.tiles #housing-image:after {
-				background-color: rgba(121,196,113, 0.65);
+				background-color: rgba(121,196,113, 0.8);
 			}
 
 			.tiles #greenjobs-image:after {
@@ -3649,7 +3649,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #193a65;
 	}
 
 		#main > * {
@@ -4010,3 +4010,24 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+.cta {
+	text-align: center;
+}
+
+#volunteer-btn {
+	margin-top: 1em;
+	display: inline-block;
+}
+
+.pb {
+	padding-top: 4em;
+}
+
+body {
+	background-color: #193a65;
+}
+
+.major h2 {
+	word-wrap: normal;
+}
