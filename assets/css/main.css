@@ -1968,7 +1968,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(212, 212, 255, 0.035);
+		background: rgba(212, 212, 255, 0.135);
 		border: none;
 		border-radius: 0;
 		color: inherit;
@@ -3649,7 +3649,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #193a65;
 	}
 
 		#main > * {
@@ -4015,6 +4015,14 @@ input, select, textarea {
 	text-align: center;
 }
 
+#volunteer-btn {
+	margin-top: 1em;
+}
+
 .pb {
 	padding-top: 4em;
+}
+
+body {
+	background-color: #193a65;
 }
