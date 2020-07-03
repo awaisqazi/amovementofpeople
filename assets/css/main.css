@@ -4027,3 +4027,7 @@ input, select, textarea {
 body {
 	background-color: #193a65;
 }
+
+.major h2 {
+	word-wrap: normal;
+}
