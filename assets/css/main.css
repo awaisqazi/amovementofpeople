@@ -2742,7 +2742,7 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:hover,
 			.button.primary:active {
-				background-color: #9bf1ff;
+				background-color: #79c471;
 				color: #242943 !important;
 			}
 
@@ -2751,7 +2751,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #53e3fb;
+				background-color: #79c471;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -4010,3 +4010,11 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+.cta {
+	text-align: center;
+}
+
+.pb {
+	padding-top: 4em;
+}
