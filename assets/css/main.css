@@ -1772,9 +1772,6 @@ input, select, textarea {
 		color: #193a65;
 	}
 	#housing, #housing-title {
-		color: #c9e2fb;
-	}
-	#greenjobs, #greenjobs-title {
 		color: #193a65;
 	}
 	#greenjobs, #greenjobs-title {
@@ -1828,7 +1825,7 @@ input, select, textarea {
 			}
 			header.major > #housing-title:after {
 				content: '';
-				background-color: #c9e2fb;
+				background-color: #193a65;
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
@@ -2815,10 +2812,6 @@ input, select, textarea {
 			width: 50%;
 		}
 
-		.tiles .second-row {
-			width: calc(100%/3);
-		}
-
 			.tiles article .image {
 				display: none;
 			}
@@ -2894,29 +2887,29 @@ input, select, textarea {
 				width: 50%;
 			}
 
-			.tiles article:nth-child(6n - 5):after {
+			.tiles #fair-elections-image:after {
 				background-color: rgba(25,58,101, 0.8);
 			}
 
-			.tiles article:nth-child(6n - 4):after {
+			.tiles #covid-19-image:after {
 				background-color: rgba(201,226,251, 0.8);
 			}
 
-			.tiles article:nth-child(6n - 3):after {
-				background-color: rgba(25,58,101, 0.8);
+			.tiles #housing-image:after {
+				background-color: rgba(121,196,113, 0.65);
 			}
 
-			.tiles article:nth-child(6n - 2):after {
+			.tiles #greenjobs-image:after {
 				background-color: rgba(201,226,251, 0.8);
 			}
 
-			.tiles article:nth-child(6n - 1):after {
+			.tiles #medicare-image:after {
 				background-color: rgba(25,58,101, 0.8);
 			}
 
-			.tiles article:nth-child(6n):before {
+			/* .tiles article:nth-child(6n):before {
 				background-color: #87c5a4;
-			}
+			} */
 
 		@media screen and (max-width: 1280px) {
 
